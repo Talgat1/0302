@@ -19,6 +19,9 @@ namespace _0302.Unit
             weapon.Hit();
         }
 
-        
+        public void Param()
+        {
+            Console.WriteLine($"{GetType().Name} has established");
+        }
     }
 }

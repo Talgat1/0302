@@ -12,7 +12,7 @@ namespace _0302
         {
             UnitHouse ar = new UnitHouse();
             var Lena = ar.MakeArcher();
-
+            
             WeaponHouse wh = new WeaponHouse();
             var bow1 = wh.MakeBow();
 

@@ -12,5 +12,7 @@ namespace _0302.InterfaceUnit
         int berserk { get; }
         int defense { get; }
         int speed { get; }
+
+        void Param();
     }
 }

@@ -13,5 +13,10 @@ namespace _0302.Unit
         public int berserk => 40;
         public int defense => 50;
         public int speed => 15;
+
+        public void Param()
+        {
+            Console.WriteLine($"{GetType().Name} has established");
+        }
     }
 }
