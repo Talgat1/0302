@@ -10,13 +10,21 @@ namespace _0302
     {
         static void Main(string[] args)
         {
-            UnitHouse ar = new UnitHouse();
-            var Lena = ar.MakeArcher();
-            
-            WeaponHouse wh = new WeaponHouse();
-            var bow1 = wh.MakeBow();
+            UnitHouse archer1 = new UnitHouse();
+            var Lena = archer1.MakeArcher();
+            Lena.Par();
 
-            Lena.Blow(bow1);
+            UnitHouse shaman1 = new UnitHouse();
+            var Boris = shaman1.MakeShaman();
+            Boris.Par();
+            Boris.Fury(Lena);
+
+            PostHouse ph1 = new PostHouse();
+
+            //WeaponHouse wh = new WeaponHouse();
+            //var bow1 = wh.MakeBow();
+
+            //Lena.Blow(bow1);
         }
     }
 }

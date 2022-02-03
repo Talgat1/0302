@@ -8,11 +8,14 @@ namespace _0302.InterfaceUnit
 {
     interface Parametrs
     {
-        int healf { get; }
+        int healf { get; } 
         int berserk { get; }
         int defense { get; }
         int speed { get; }
 
-        void Param();
+        void Par();
+
+        void Fury();
+       
     }
 }

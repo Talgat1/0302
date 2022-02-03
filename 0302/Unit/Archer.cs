@@ -19,9 +19,18 @@ namespace _0302.Unit
             weapon.Hit();
         }
 
-        public void Param()
+        public void Par()
         {
             Console.WriteLine($"{GetType().Name} has established");
+        }
+
+        public void Fury()
+        {
+            Console.WriteLine("Shaman buffed Archer : Fury ");
+            Console.WriteLine($"Healf: {healf}");
+            Console.WriteLine($"Berserk: {berserk + (berserk / 2)}");
+            Console.WriteLine($"Defense: {defense/2}");
+            Console.WriteLine($"Speed: {speed}");
         }
     }
 }

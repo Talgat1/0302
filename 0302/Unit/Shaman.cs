@@ -14,9 +14,25 @@ namespace _0302.Unit
         public int defense => 50;
         public int speed => 15;
 
-        public void Param()
+        public void Fury(Parametrs p)
+        {
+            p.Fury();
+        }
+
+        public void Fury()
+        {
+            Console.WriteLine("Shaman buffed Shaman : Fury ");
+            Console.WriteLine($"Healf: {healf}");
+            Console.WriteLine($"Berserk: {berserk + (berserk / 2)}");
+            Console.WriteLine($"Defense: {defense / 2}");
+            Console.WriteLine($"Speed: {speed}");
+        }
+
+        public void Par()
         {
             Console.WriteLine($"{GetType().Name} has established");
         }
+
+        
     }
 }
